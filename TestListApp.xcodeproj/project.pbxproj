@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F23D721D2686E6DB00CB80C6 /* TestListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D721C2686E6DB00CB80C6 /* TestListAppApp.swift */; };
 		F23D721F2686E6DB00CB80C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D721E2686E6DB00CB80C6 /* ContentView.swift */; };
 		F23D72212686E6DD00CB80C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23D72202686E6DD00CB80C6 /* Assets.xcassets */; };
 		F23D72242686E6DD00CB80C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23D72232686E6DD00CB80C6 /* Preview Assets.xcassets */; };
+		F23D722C2686E71A00CB80C6 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D722B2686E71A00CB80C6 /* ViewRouter.swift */; };
+		F23D722E2686E74C00CB80C6 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D722D2686E74C00CB80C6 /* Pet.swift */; };
+		F23D72302686E7F700CB80C6 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D722F2686E7F700CB80C6 /* PetView.swift */; };
+		F23D72322686E84600CB80C6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D72312686E84600CB80C6 /* SwiftUIView.swift */; };
+		F23D723826878BE800CB80C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D723726878BE800CB80C6 /* AppDelegate.swift */; };
+		F23D723B2687916700CB80C6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D723A2687916700CB80C6 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F23D72192686E6DB00CB80C6 /* TestListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F23D721C2686E6DB00CB80C6 /* TestListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListAppApp.swift; sourceTree = "<group>"; };
 		F23D721E2686E6DB00CB80C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F23D72202686E6DD00CB80C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F23D72232686E6DD00CB80C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F23D72252686E6DD00CB80C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23D722B2686E71A00CB80C6 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		F23D722D2686E74C00CB80C6 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		F23D722F2686E7F700CB80C6 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		F23D72312686E84600CB80C6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		F23D723726878BE800CB80C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F23D723926878E3000CB80C6 /* TestListApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestListApp.entitlements; sourceTree = "<group>"; };
+		F23D723A2687916700CB80C6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +63,14 @@
 		F23D721B2686E6DB00CB80C6 /* TestListApp */ = {
 			isa = PBXGroup;
 			children = (
-				F23D721C2686E6DB00CB80C6 /* TestListAppApp.swift */,
+				F23D723926878E3000CB80C6 /* TestListApp.entitlements */,
+				F23D723A2687916700CB80C6 /* MainView.swift */,
 				F23D721E2686E6DB00CB80C6 /* ContentView.swift */,
+				F23D722B2686E71A00CB80C6 /* ViewRouter.swift */,
+				F23D722F2686E7F700CB80C6 /* PetView.swift */,
+				F23D72312686E84600CB80C6 /* SwiftUIView.swift */,
+				F23D722D2686E74C00CB80C6 /* Pet.swift */,
+				F23D723726878BE800CB80C6 /* AppDelegate.swift */,
 				F23D72202686E6DD00CB80C6 /* Assets.xcassets */,
 				F23D72252686E6DD00CB80C6 /* Info.plist */,
 				F23D72222686E6DD00CB80C6 /* Preview Content */,
@@ -138,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23D722C2686E71A00CB80C6 /* ViewRouter.swift in Sources */,
+				F23D723B2687916700CB80C6 /* MainView.swift in Sources */,
+				F23D722E2686E74C00CB80C6 /* Pet.swift in Sources */,
+				F23D72322686E84600CB80C6 /* SwiftUIView.swift in Sources */,
 				F23D721F2686E6DB00CB80C6 /* ContentView.swift in Sources */,
-				F23D721D2686E6DB00CB80C6 /* TestListAppApp.swift in Sources */,
+				F23D723826878BE800CB80C6 /* AppDelegate.swift in Sources */,
+				F23D72302686E7F700CB80C6 /* PetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestListApp/TestListApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TestListApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -288,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestListApp/TestListApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TestListApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
